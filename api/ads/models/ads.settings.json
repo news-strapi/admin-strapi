@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_ads",
+  "info": {
+    "name": "Anuncios globales",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "homeAds": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.home",
+      "required": true
+    },
+    "globalAds": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.global"
+    }
+  }
+}

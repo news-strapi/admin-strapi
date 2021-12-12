@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_ads",
+  "info": {
+    "name": "Anuncio",
+    "icon": "unlink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ads": {
+      "model": "advertising"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

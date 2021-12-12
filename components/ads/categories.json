@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ads_categories",
+  "info": {
+    "name": "categories",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "sidebars": {
+      "collection": "advertising"
+    }
+  }
+}

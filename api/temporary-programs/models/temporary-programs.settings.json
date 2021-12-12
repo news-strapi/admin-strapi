@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "temporary_programs",
+  "info": {
+    "name": "Programas temporales",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "date": {
+      "type": "date"
+    },
+    "start": {
+      "type": "time"
+    },
+    "end": {
+      "type": "time"
+    }
+  }
+}

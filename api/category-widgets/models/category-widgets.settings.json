@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "category_widgets",
+  "info": {
+    "name": "Widgets de categorías",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "widgets": {
+      "type": "dynamiczone",
+      "components": [
+        "widget.last-news",
+        "widget.link",
+        "widget.ads",
+        "widget.video",
+        "widget.html",
+        "widget.categories"
+      ]
+    }
+  }
+}

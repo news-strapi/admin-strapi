@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ads_news",
+  "info": {
+    "name": "news",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "sidebar": {
+      "collection": "advertising"
+    }
+  }
+}

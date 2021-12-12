@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_programs_schedules",
+  "info": {
+    "name": "schedule",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "start": {
+      "type": "time",
+      "required": true
+    },
+    "end": {
+      "type": "time",
+      "required": true
+    },
+    "day": {
+      "model": "days"
+    },
+    "name": {
+      "type": "string",
+      "default": "Lunes",
+      "required": true
+    },
+    "replace_name": {
+      "type": "string"
+    }
+  }
+}

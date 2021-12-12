@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/temporary-programs",
+      "handler": "temporary-programs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/temporary-programs/count",
+      "handler": "temporary-programs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/temporary-programs/:id",
+      "handler": "temporary-programs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/temporary-programs",
+      "handler": "temporary-programs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/temporary-programs/:id",
+      "handler": "temporary-programs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/temporary-programs/:id",
+      "handler": "temporary-programs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

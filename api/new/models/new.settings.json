@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "news",
+  "info": {
+    "name": "noticias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slider.articles"
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category-block.category-block"
+    },
+    "program": {
+      "type": "component",
+      "repeatable": true,
+      "component": "programs.section"
+    }
+  }
+}

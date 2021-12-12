@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "lives",
+  "info": {
+    "name": "En vivo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "liveCode": {
+      "type": "text",
+      "required": false
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category-block.category-block"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "liveAds": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.ads-live"
+    }
+  }
+}

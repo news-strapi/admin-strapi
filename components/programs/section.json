@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_programs_sections",
+  "info": {
+    "name": "section",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "program": {
+      "model": "program"
+    }
+  }
+}

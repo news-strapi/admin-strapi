@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "article_widgets",
+  "info": {
+    "name": "Widgets de artículos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "widgets": {
+      "type": "dynamiczone",
+      "components": [
+        "widget.last-news",
+        "widget.link",
+        "widget.ads",
+        "widget.related-posts",
+        "widget.video",
+        "widget.html",
+        "widget.categories"
+      ]
+    }
+  }
+}

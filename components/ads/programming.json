@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ads_programmings",
+  "info": {
+    "name": "programming",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "sidebars": {
+      "collection": "advertising"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact",
+  "info": {
+    "name": "Contacto",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "mainSuppliers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.main-suppliers"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "ratesLink": {
+      "type": "string"
+    }
+  }
+}

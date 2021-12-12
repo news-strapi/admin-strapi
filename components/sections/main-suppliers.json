@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_main_suppliers",
+  "info": {
+    "name": "mainSuppliers",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "chanel": {
+      "type": "string"
+    }
+  }
+}

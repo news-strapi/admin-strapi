@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ads_globals",
+  "info": {
+    "name": "global",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "footer": {
+      "model": "advertising"
+    }
+  }
+}

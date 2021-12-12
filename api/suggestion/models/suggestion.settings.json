@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "suggestions",
+  "info": {
+    "name": "Sugerencias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "message": {
+      "type": "text"
+    },
+    "subject": {
+      "type": "string"
+    }
+  }
+}

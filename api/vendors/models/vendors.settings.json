@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vendors",
+  "info": {
+    "name": "proveedores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "departament": {
+      "type": "string",
+      "required": true
+    },
+    "cable": {
+      "type": "string",
+      "required": true
+    },
+    "chanel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

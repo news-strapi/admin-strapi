@@ -1,0 +1,62 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "Configuración global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "favicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "openGraph": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "liveCode": {
+      "type": "text",
+      "required": false
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu"
+    }
+  }
+}

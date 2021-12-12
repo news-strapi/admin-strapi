@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_menu_column_menus",
+  "info": {
+    "name": "columnMenu",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "menuChild": {
+      "collection": "menu"
+    }
+  }
+}

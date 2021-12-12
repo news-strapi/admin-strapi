@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_playlists",
+  "info": {
+    "name": "playlist",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    }
+  }
+}

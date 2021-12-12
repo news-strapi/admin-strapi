@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_widget_categories",
+  "info": {
+    "name": "categories",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "model": "category"
+    }
+  }
+}

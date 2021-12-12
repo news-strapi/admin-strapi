@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_featureds",
+  "info": {
+    "name": "featured",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Destacados",
+      "required": true
+    },
+    "articles": {
+      "collection": "article"
+    }
+  }
+}

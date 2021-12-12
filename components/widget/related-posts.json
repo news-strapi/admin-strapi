@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_widget_related_posts",
+  "info": {
+    "name": "Artículos Relacionados",
+    "icon": "poll-h",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

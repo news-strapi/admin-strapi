@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "writers",
+  "info": {
+    "name": "Redactores",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "articles": {
+      "via": "author",
+      "collection": "article"
+    },
+    "email": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    }
+  }
+}

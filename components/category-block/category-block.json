@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_category_block_category_blocks",
+  "info": {
+    "name": "categoryBlock",
+    "icon": "tags",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

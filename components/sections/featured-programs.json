@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_featured_programs",
+  "info": {
+    "name": "featuredPrograms",
+    "icon": "podcast",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "programs": {
+      "collection": "program"
+    }
+  }
+}

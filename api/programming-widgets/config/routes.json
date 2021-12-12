@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/programming-widgets",
+      "handler": "programming-widgets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/programming-widgets",
+      "handler": "programming-widgets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/programming-widgets",
+      "handler": "programming-widgets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

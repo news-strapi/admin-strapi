@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_youtube_videos",
+  "info": {
+    "name": "Video de youtube",
+    "icon": "file-video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

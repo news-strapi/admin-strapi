@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_program_blocks",
+  "info": {
+    "name": "Categoría",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "program": {
+      "type": "component",
+      "repeatable": true,
+      "component": "category-block.category-block"
+    }
+  }
+}

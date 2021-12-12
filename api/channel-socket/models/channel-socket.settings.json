@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "channel_sockets",
+  "info": {
+    "name": "Toma de canal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "adsTop": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.basic"
+    },
+    "adsLeft": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.basic"
+    },
+    "adsRight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "ads.basic"
+    }
+  }
+}

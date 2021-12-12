@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_slider_articles",
+  "info": {
+    "name": "articles",
+    "icon": "file-export",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "model": "article"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

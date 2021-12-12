@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ads_articles",
+  "info": {
+    "name": "article",
+    "icon": "sticky-note",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "beforeContent": {
+      "model": "advertising"
+    },
+    "afterContent": {
+      "model": "advertising"
+    }
+  }
+}

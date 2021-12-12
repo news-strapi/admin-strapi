@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_menu_menus",
+  "info": {
+    "name": "menu",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "columnMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.column-menu"
+    }
+  }
+}

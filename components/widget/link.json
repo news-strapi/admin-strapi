@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_widget_links",
+  "info": {
+    "name": "Links",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    }
+  }
+}

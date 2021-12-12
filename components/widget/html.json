@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_widget_htmls",
+  "info": {
+    "name": "Html",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "html": {
+      "type": "richtext"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

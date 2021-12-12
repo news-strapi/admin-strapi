@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ads_homes",
+  "info": {
+    "name": "home",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "collection": "advertising"
+    }
+  }
+}

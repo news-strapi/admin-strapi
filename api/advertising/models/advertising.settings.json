@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advertisings",
+  "info": {
+    "name": "Anuncio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "private": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "script": {
+      "type": "text"
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "size_auto",
+        "size_200_x_200",
+        "size_250_x_250",
+        "size_468_x_60",
+        "size_728_x_90",
+        "size_300_x_250",
+        "size_336_x_280",
+        "size_120_x_600",
+        "size_160_x_600",
+        "size_300_x_600",
+        "size_970_x_90"
+      ],
+      "required": true,
+      "private": true,
+      "default": "size_auto"
+    }
+  }
+}

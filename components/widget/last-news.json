@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_widget_last_news",
+  "info": {
+    "name": "Últimas noticias",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ads_ads_lives",
+  "info": {
+    "name": "adsLive",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftAds": {
+      "model": "advertising"
+    },
+    "rightAds": {
+      "model": "advertising"
+    }
+  }
+}

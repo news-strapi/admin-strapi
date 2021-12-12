@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "featured_programs_s",
+  "info": {
+    "name": "Programas destacados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "programs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.featured-programs",
+      "required": true
+    }
+  }
+}

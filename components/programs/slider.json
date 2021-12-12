@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_programs_sliders",
+  "info": {
+    "name": "slider",
+    "icon": "project-diagram",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sections": {
+      "collection": "program"
+    },
+    "articles": {
+      "collection": "article"
+    }
+  }
+}
